@@ -1,4 +1,4 @@
-const p = new URLSearchParams(location.search);
+//const p = new URLSearchParams(location.search);
 const from = p.get("from") || "Mohd Kaif";
 const to = p.get("to") || "meri Pyaaari Mareez Mohtarma";
 
@@ -46,3 +46,4 @@ setInterval(() => {
 	bg.appendChild(h);
 	setTimeout(() => h.remove(), 12000);
 }, 450);
+
